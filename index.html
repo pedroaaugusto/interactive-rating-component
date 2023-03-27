@@ -11,31 +11,38 @@
 <body>
     
     <div class="box">
-        <figure>
-            <img id="star" href="img/icon-star.svg">
-        </figure>
+        <section class="box-1">
+            <figure>
+                <img id="star" href="img/icon-star.svg">
+            </figure>
 
-        <article>
-            <h1>How did we do?</h1>
-            <p>Please letus know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
-        </article>
+            <article>
+                <h1>How did we do?</h1>
+                <p>Please letus know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+            </article>
 
-        <section>
+            <section>
 
-            <div>
-                <a>1</a>
-                <a>2</a>
-                <a>3</a>
-                <a>4</a>
-                <a>5</a>
-            </div>
+                <div>
+                    <button id="bt-suporte" value="1">1</button>
+                    <button id="bt-suporte" value="2">2</button>
+                    <button id="bt-suporte" value="3">3</button>
+                    <button id="bt-suporte" value="4">4</button>
+                    <button id="bt-suporte" value="5">5</button>
+                </div>
 
-            <div>
-                <a>SUMIT</a>
-            </div>
+                <div>
+                    <button onclick="esconde('box-1')">SUBMIT</button>
+                </div>
 
+            </section>
+        </section>
+
+        <section class="box-2">
+            <p>You selected <span id="n-selecionado"></span> out of 5</p>
         </section>
     </div>
 
+    <script src="js/main.js"></script>
 </body>
 </html>
