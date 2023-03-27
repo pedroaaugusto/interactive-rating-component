@@ -18,6 +18,10 @@ body{
     border-radius: 5%;
 }
 
+.box-1{
+    display: block;
+}
+
 @media (max-width:310px),(max-height:310px){
     
     .box{
@@ -25,4 +29,8 @@ body{
         height: 90vmin;
         margin: 10px;
     }
+}
+
+.box-2{
+    display: none;
 }
