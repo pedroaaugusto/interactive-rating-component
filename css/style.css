@@ -12,12 +12,13 @@ body{
 }
 
 .box{
-    width: 300px;
-    height: 300px;
+    width: 317px;
+    height: 317px;
     margin: 10px;
     background: rgb(34,41,49);
     background: linear-gradient(192deg, rgba(34,41,49,1) 10%, rgba(23,30,40,1) 49%);
-    border-radius: 5%;
+    border-radius: 7%;
+    box-shadow: 0px 0px 14px -13px;
 }
 
 h1, p, button{
@@ -28,6 +29,7 @@ h1{
     font-size: 23px;
     font-weight: 700;
     color: hsl(0, 0%, 100%);
+    padding-bottom: 12px;
 }
 
 p{
@@ -59,6 +61,16 @@ p{
     max-height: 12px;
 }
 
+article{
+    padding: 0 20px;
+}
+
+.bts-suporte{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 25px;
+}
+
 .bts-suporte > button{
     width: 35px;
     height: 35px;
@@ -68,12 +80,79 @@ p{
     border-radius: 20px;
 }
 
+.bts-suporte > button:hover{
+    background-color: #7D8999;
+    color: hsl(0, 0%, 100%);
+    transition: .4s ease ;
+}
+
+.bts-suporte > button:active{
+    background-color: #FC7613;
+    color: hsl(0, 0%, 100%);
+    transition: 0.06s ease ;
+}
+
+.bt-submit{
+    display: flex;
+    justify-content: center;
+}
+
+#bt-submit{
+    width: 260px;
+    height: 35px;
+    background-color: #FC7613;
+    color: hsl(0, 0%, 100%);   
+    border: none;
+    border-radius: 20px;
+}
+
+#bt-submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: #FC7613;
+    transition: .4s ease ;
+}
+
+
 /* fim style box-1 */
 
 /* começo style box-2 */
 
 .box-2{
     display: none;
+}
+
+.box-img-thanks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100px;
+    box-sizing: inherit;
+    margin: 20px 0;
+}
+
+#thanks{
+    max-width: 140px;
+    max-height: 86px;
+}
+
+.selected{
+    width: 50%;
+    height: 22px;
+    background-color: rgb(38,47,56);
+    border-radius: 20px;
+    padding-top: 5px;
+    text-align: center;
+    margin: 0 auto 30px;
+}
+
+.selected > p{
+    color: #FC7613;
+}
+
+
+.tky{
+    text-align: center;
 }
 
 /* fim style box-2 */
