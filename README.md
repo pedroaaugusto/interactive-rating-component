@@ -4,7 +4,7 @@ Deixe sua avaliação!!!
 
 ## Objetivo
 
-O objetivo deste projeto foi achar uma solução para um desafio do Front-end Mentor <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Interactive rating component</a> onde crio uma componente de classificação interativa, tendo em mente principalmente aprimorar habilidades em JavaScript, DOM, responsividade.
+O objetivo deste projeto foi achar uma solução para um desafio do Front-end Mentor <a href="https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI">Interactive rating component</a> onde crio uma componente de classificação interativa, tendo em mente principalmente aprimorar habilidades em JavaScript, DOM, e responsividade.
 
 ## Acesse
 
